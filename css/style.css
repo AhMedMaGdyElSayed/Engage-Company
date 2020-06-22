@@ -1,0 +1,229 @@
+/*Parent*/
+.parent{
+    background-image: url('../Images/header.jpg');
+    background-size: cover;
+    height: 695px;
+}
+/*Navbar*/
+/*Logo*/
+.navbar{
+    transition: all 1s;
+}
+
+/* changing colors with scrolling */
+.scrolled{
+    background-color: #fff;
+    transition: all ease-in-out 0.3s;
+}
+
+
+
+.logo{
+    letter-spacing: 10px;
+    font-size: 28px;
+    color: #fff;
+    opacity: 0.5;
+    transition: all 1s;
+}
+
+.navbar-dark .navbar-nav{
+    position: absolute;
+    right: 100px;
+}
+
+.nav-item{
+    opacity: 0.8;
+    font-size: 18px !important;
+    padding: 0px 10px;
+    transition: all 1s;
+}
+
+.nav-item:hover{
+    opacity: 1;
+}
+
+.logo:hover{opacity: 1; cursor: pointer;}
+
+.act{
+    opacity: 1;
+    color: yellowgreen !important;
+}
+
+/*Header*/
+header{
+    padding-top: 20%;
+    text-align: center;
+    color: #fff;
+}
+
+header h1{
+    font-size: 7em;
+    padding: 15px;
+}
+
+header p{
+    font-size: 18px;
+}
+
+.btn-group-lg>.btn, .btn-lg{
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 15px 30px;
+    transition: all 1s;
+}
+
+.btn-group-lg>.btn, .btn-lg:hover{
+    background-color: rgb(1, 160, 1);
+    border-color: rgb(1, 160, 1);
+}
+
+.btn-group-lg>.btn, .btn-lg span{
+    font-size: 20px;
+}
+
+/*after header*/
+.hea{
+    background-color: yellowgreen;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+}
+
+.hea i, .hea h2, .hea p{
+    padding: 10px;
+}
+
+.hea p{
+    /* padding: 0px 190px; */
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+/*microphone*/
+
+.micro{
+    margin: 100px;
+}
+.im{
+    max-width: 85%;
+}
+
+.para{
+    margin-top: 10px;
+}
+
+/* Iphone */
+
+.iphone{
+    margin: auto;
+    background-color: #222  ;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.iphone .col-6{
+    margin: auto;
+}
+
+.iphone img{margin: 70px;}
+
+.iphone .grayy{
+    background-color: white;
+    border-color: white;
+    color: #000;
+    font-size: 20px;
+}
+
+.iphone .grayy:hover{
+    background-color: rgb(214, 214, 214);
+}
+
+/* Gallary */
+.Gallary{max-width: 100%; overflow: hidden;}
+
+.Gallary .image,
+.Gallary .image2,
+.Gallary .image3
+{
+    background-size: cover;
+    color: #fff;
+    height: 200px !important;
+    text-align: center;
+    margin: 0em;
+    border-style: none;
+    transition: all 1s;
+}
+
+.Gallary .image:hover,
+.Gallary .image2:hover,
+.Gallary .image3:hover{
+    transform: scale(1.1);
+}
+
+.Gallary .image h1,
+.Gallary .image2 h1,
+.Gallary .image3 h1
+{margin-top: 20%;}
+
+.Gallary .image{ background-image: url('../Images/screen-0.jpg');}
+
+.Gallary .image2{ background-image: url('../Images/concert.jpg');}
+
+.Gallary .image3{ background-image: url('../Images/pencil_sharpener.jpg');}
+
+/* Check */
+.check{
+    margin-top: 35px;
+    text-align: center;
+}
+
+.check i{color: yellowgreen;}
+
+.check h1{padding: 20px; padding-top: 0px;}
+
+.check p{opacity: 0.8;}
+
+.check .btn-success{margin: 10px;}
+
+/* Contact Us */
+.contactUs{
+    text-align: center;
+    color: #fff;
+    background-color: yellowgreen;
+}
+
+.contactUs i{display: block; margin: 25px;}
+
+.contactUs .far{padding-top: 100px;}
+
+.ahmed{padding-bottom: 100px;}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.white{
+    color: black;
+    background-color: white;
+}
+/* .navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+} */
+
+/* Small screens */
+@media screen and (max-width: 520px){
+    .navbar-dark .navbar-nav{
+        left: 20px;
+    }
+
+     header h1{
+         font-size: 4em;
+     }
+}
